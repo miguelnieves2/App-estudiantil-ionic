@@ -1,20 +1,21 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div>
+    <ion-img src="assets/images/Home/8747.jpg"></ion-img>
   </div>
+  
+  <ion-title>Hola,bienvenido</ion-title>
+  <label>al campus estudiantil.</label>
+  
+  
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>¿Cómo deseas ingresar?</ion-card-title>
+    </ion-card-header>
+    
+    <ion-card-content>
+      <ion-button routerLink="/login-estudiante">Estudiante</ion-button>
+      <ion-button routerLink="/login-admin">Administrador</ion-button>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
