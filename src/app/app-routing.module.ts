@@ -19,6 +19,14 @@ const routes: Routes = [
     path: 'login-admin',
     loadChildren: () => import('./login-admin/login-admin.module').then( m => m.LoginAdminPageModule)
   },
+  {
+    path: 'main-estudiante',
+    loadChildren: () => import('./main-estudiante/main-estudiante.module').then( m => m.MainEstudiantePageModule)
+  },
+  {
+    path: 'main-admin',
+    loadChildren: () => import('./main-admin/main-admin.module').then( m => m.MainAdminPageModule)
+  },
 ];
 
 @NgModule({
