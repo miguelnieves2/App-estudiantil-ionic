@@ -1,5 +1,7 @@
 {
   "name": "parcial-moviles",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
